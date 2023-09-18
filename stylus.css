@@ -89,6 +89,7 @@ body {
   color: hsl(236, 13%, 42%);
   display: grid;
   grid-template-rows: 3fr 1fr;
+  line-height: 1.8;
 }
 
 .container-title-image-content-p button {
@@ -98,6 +99,7 @@ body {
   font-weight: 700;
   width: 50%;
   cursor: pointer;
+  letter-spacing: 0.3rem;
 }
 
 .container-title-image-content-p button:hover {
@@ -137,6 +139,7 @@ body {
 .container-news p {
   font-weight: 400;
   color: hsl(233, 8%, 79%);
+  line-height: 1.8;
 }
 
 .container-news-two {
@@ -160,6 +163,8 @@ body {
   grid-template-columns: 1fr 2fr;
   color: hsl(236, 13%, 42%);
   gap: 1rem;
+  line-height: 1.6;
+  font-size: 0.98rem;
 }
 
 .container-options-one-text,
